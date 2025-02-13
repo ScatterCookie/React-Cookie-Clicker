@@ -63,7 +63,7 @@ export default function StoreItem(data) {
                     {...getFloatingProps()}
                     className="item-Panel-about"
                     >
-                        {data.itemDesription}
+                        {data.ItemDe}
                     </span>
             )
         </>
