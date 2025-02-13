@@ -13,6 +13,7 @@ const indexItems = items.map((item) => {
     itemCount={getItemCount(item.itemID)}
     itemCost={item.itemCost}
     itemName={item.itemName}
+    itemDescription={item.itemDescription}
       />
 });
 

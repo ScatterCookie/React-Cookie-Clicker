@@ -5,10 +5,12 @@ class Item {
       itemID,
       itemName,
       itemCost,
+      itemDescription,
     ) {
       this.itemID = itemID;
       this.itemName = itemName;
       this.itemCost = itemCost;
+      this.itemDescription = itemDescription;
     }
   }
 
@@ -17,6 +19,7 @@ const itemStore = [
       0,
       "Small Oven",
       20,
+      "Small boost to CPS",
       () => {
         addCPS(1);
       }
@@ -25,6 +28,7 @@ const itemStore = [
       1,
       "Industrial Oven",
       100,
+      "Little bit better but you can do more",
       () => {
         addCookiesPerClick(1);
       }
@@ -33,6 +37,7 @@ const itemStore = [
       2,
       "Volcanic Eruption",
       1000,
+      "Unexpected but you're not trying!",
       () => {
         addCPS(5);
       }
@@ -41,6 +46,7 @@ const itemStore = [
       3,
       "Singularity",
       1000,
+      "This isn't even my final form!",
       () => {
         addCookiesPerClick(5);
       }
@@ -49,6 +55,7 @@ const itemStore = [
       4,
       "Alien Outsourcing",
       2500,
+      "Now this is just bad practice!",
       () => {
         addCPS(10), addCookiesPerClick(10);
       }
